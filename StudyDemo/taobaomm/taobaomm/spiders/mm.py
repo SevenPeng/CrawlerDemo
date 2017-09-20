@@ -12,7 +12,6 @@ from scrapy.http import Request
 from scrapy.http import FormRequest
 from scrapy.utils.response import open_in_browser
 
-sys.setdefaultencoding('utf8')
 
 
 class MmSpider(Spider):
